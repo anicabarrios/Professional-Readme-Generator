@@ -91,7 +91,7 @@ ${data.license}
 ${data.tests}
 
 ## Questions
-For questions about the project, please feel free to contact me at my GitHub profile [${data.github}](https://github.com/${data.github}) or
+For questions about the project, please feel free to contact me at my GitHub profile ${data.github} (https://github.com/${data.github}) or
 email me at ${data.email}.
 `;
 }

@@ -1,9 +1,9 @@
-# asfnas
+# professional readme generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-asbfaf
+this app is generating a readme file based on user input
 
 
 ## Table of Contents (Optional)
@@ -17,23 +17,23 @@ asbfaf
 
 ## Installation
 
-ajsfoasf
+instal inquirer
 
 ## Usage
 
-asfjasbf
+open terminal and type node index and follow the questions
 
 ## Contributing
 
-fdaga
+no contribution
 
 ## License
 MIT
 
 ## Tests
 
-no test
+no test needed
 
 ## Questions
-For questions about the project, please feel free to contact me at my GitHub profile [asfaa](https://github.com/asfaa) or
-email me at cadaf.
+For questions about the project, please feel free to contact me at my GitHub profile anicabarrios (https://github.com/anicabarrios) or
+email me at anicabarrios@gmail.com.

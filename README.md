@@ -20,7 +20,7 @@ To generate your own README, git clone the repo down to your local so you have t
 Run npm install in order to install the following npm package dependencies as specified in the package.json and inquirer will prompt you for your inputs from the command line.
 
 ## Usage
-
+<a link= https://drive.google.com/file/d/1tpVu-pTVM8OyOTdiEfMBPlmj1qKV6EHG/view>Link to recording location </a>
 
 ## License
 
