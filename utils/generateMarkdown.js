@@ -54,13 +54,6 @@ This project is licensed under the ${license} license. See the (${renderLicenseL
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  let testsSection = "";
-  if (data.test) {
-    testsSection = `\n## Tests\n\n${data.test}\n`;
-  } else {
-    testsSection = "\n## Tests\n\nNo test instructions provided.\n";
-  }
-  
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
@@ -73,8 +66,10 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -93,10 +88,10 @@ ${data.license}
 
 ## Tests
 
-${data.test}
+${data.tests}
 
 ## Questions
-For questions about the project, please feel free to contact me at my GitHub profile[${data.github}](https://github.com/${data.github}) or
+For questions about the project, please feel free to contact me at my GitHub profile [${data.github}](https://github.com/${data.github}) or
 email me at ${data.email}.
 `;
 }
