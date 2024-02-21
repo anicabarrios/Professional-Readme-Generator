@@ -21,11 +21,12 @@ Run npm install in order to install the following npm package dependencies as sp
 
 ## Usage
 
-<a link="https://github.com/anicabarrios/Challenge9-Professional-Readme/tree/main/output"> Sample README.md output </a>
+[Link to My Video](https://drive.google.com/file/d/1tpVu-pTVM8OyOTdiEfMBPlmj1qKV6EHG/view)
 
-<a link= "https://drive.google.com/file/d/1tpVu-pTVM8OyOTdiEfMBPlmj1qKV6EHG/view">Link to video recording location </a>
 
-<a link="https://github.com/anicabarrios/Challenge9-Professional-Readme">GitHub repository link </a>
+
+When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your GitHub and about your project. From there, the application will generate markdown and a table of contents for the README conditionally based on your responses to the Inquirer prompts.
+Finally, fs.writeToFile is used to generate your project's README.md file. Check out the README.md in the output folder this repo as an example on the final output.
 
 ## License
 
