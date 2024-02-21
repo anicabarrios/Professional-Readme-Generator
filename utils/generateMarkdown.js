@@ -37,15 +37,30 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  if (license === "None") {
   return `
   ## License
 
-This project is licensed under the ${license}. See the [${license}](${renderLicenseLink(license)}) for more information.
+This project is not licensed.
 `;
+  } else {
+    return `
+  ## License
+
+This project is licensed under the ${license} license. See the (${renderLicenseLink(license)}) for more information.
+`;
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  let testsSection = "";
+  if (data.test) {
+    testsSection = `\n## Tests\n\n${data.test}\n`;
+  } else {
+    testsSection = "\n## Tests\n\nNo test instructions provided.\n";
+  }
+  
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
@@ -74,19 +89,15 @@ ${data.usage}
 ${data.contributing}
 
 ## License
-${renderLicenseSection(data.license)}
+${data.license}
 
 ## Tests
 
 ${data.test}
 
 ## Questions
-  <ul>
-    <li> <a href='mailto:/${data.email}?subject="contact me"&body="Hello"> Email me </a> </li>
-    <li> <a href='https://github.com/${data.username}"> My Github Profile </a> </li>
-  <ul>
-
-
+For questions about the project, please feel free to contact me at my GitHub profile[${data.github}](https://github.com/${data.github}) or
+email me at ${data.email}.
 `;
 }
 
