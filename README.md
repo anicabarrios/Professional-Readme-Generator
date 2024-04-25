@@ -1,4 +1,4 @@
-# Challenge9-Professional-Readme
+# Professional-Readme-Generator
 ## Description
 
 Every good project needs a quality README with information about the app - what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project.
